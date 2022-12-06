@@ -1,0 +1,294 @@
+2022-11-29 23:42:26 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:42:26 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC001-This test verifies validation message displayed when user login with blank user name and password       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:42:26 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:42:27 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:42:28 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:42:28 INFO  Logging:26 - Username and Password are required validation message is displayed
+2022-11-29 23:42:28 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:42:29 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:42:29 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:42:29 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:42:29 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:42:30 INFO  Logging:26 - Text entered - User Name
+2022-11-29 23:42:31 INFO  Logging:26 - Text entered - User password
+2022-11-29 23:42:31 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:42:41 INFO  Logging:26 - Logout link is not displayed
+2022-11-29 23:42:41 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:43:56 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:43:56 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC001-This test verifies validation message displayed when user login with blank user name and password       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:43:56 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:43:57 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:43:58 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:43:58 INFO  Logging:26 - Username and Password are required validation message is displayed
+2022-11-29 23:43:58 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:45:00 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:45:00 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:45:00 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:45:00 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:45:01 INFO  Logging:26 - Text entered - User Name
+2022-11-29 23:45:02 INFO  Logging:26 - Text entered - User password
+2022-11-29 23:45:02 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:45:13 INFO  Logging:26 - Logout link is not displayed
+2022-11-29 23:45:13 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:46:03 INFO  Logging:26 - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[text()='Logout']' (tried for 30 second(s) with 5000 milliseconds interval)
+2022-11-29 23:46:03 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:47:56 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:47:56 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:47:56 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:47:56 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:47:57 INFO  Logging:26 - Text entered - User Name
+2022-11-29 23:47:57 INFO  Logging:26 - Text entered - User password
+2022-11-29 23:47:58 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:48:01 INFO  Logging:26 - Logout link displayed
+2022-11-29 23:48:01 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:48:01 INFO  Logging:26 - Link clicked - Logout
+2022-11-29 23:48:01 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:48:01 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:48:01 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:48:02 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:48:03 INFO  Logging:26 - Text entered - User Name
+2022-11-29 23:48:03 INFO  Logging:26 - Text entered - User password
+2022-11-29 23:48:04 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:48:04 INFO  Logging:26 - Logout link displayed
+2022-11-29 23:48:04 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:48:05 INFO  Logging:26 - Link clicked - Logout
+2022-11-29 23:48:30 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:48:30 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:48:30 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:48:32 INFO  Logging:26 - Link clicked - Electronics
+2022-11-29 23:48:36 INFO  Logging:26 - Text entered - Product Name
+2022-11-29 23:48:39 INFO  Logging:26 - Link clicked - Product
+2022-11-29 23:48:43 INFO  Logging:26 - Price matches
+2022-11-29 23:48:43 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:48:43 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:48:43 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:48:43 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:48:44 INFO  Logging:26 - Link clicked - Kitchen Items
+2022-11-29 23:48:48 INFO  Logging:26 - Text entered - Product Name
+2022-11-29 23:48:51 INFO  Logging:26 - Link clicked - Product
+2022-11-29 23:48:54 INFO  Logging:26 - Price matches
+2022-11-29 23:48:54 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:48:55 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:48:55 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:48:55 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:48:56 INFO  Logging:26 - Link clicked - Sports
+2022-11-29 23:49:00 INFO  Logging:26 - Text entered - Product Name
+2022-11-29 23:49:03 INFO  Logging:26 - Link clicked - Product
+2022-11-29 23:49:06 INFO  Logging:26 - Price do not match
+2022-11-29 23:49:06 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:49:55 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:49:55 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC004-This test verifies user can add a product to cart and cart details are correct       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:49:55 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:49:58 INFO  Logging:26 - Link clicked - Sports
+2022-11-29 23:50:15 INFO  Logging:26 - Image clicked - First product
+2022-11-29 23:50:18 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-29 23:50:21 INFO  Logging:26 - Link clicked - Cart
+2022-11-29 23:50:21 INFO  Logging:26 - Price on detail page -500.0 | Name on detail page -SG Bal
+2022-11-29 23:50:21 INFO  Logging:26 - Price on Cart -500.0 | Name on Cart -SG Bal
+2022-11-29 23:50:21 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:51:33 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:51:33 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC005-This test verifies user can remove product from cart       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:51:33 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:52:11 INFO  Logging:26 - Link clicked - Sports
+2022-11-29 23:52:17 INFO  Logging:26 - Image clicked - First product
+2022-11-29 23:52:17 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-29 23:52:20 INFO  Logging:26 - Link clicked - Cart
+2022-11-29 23:52:21 INFO  Logging:26 - Button clicked - Remove
+2022-11-29 23:52:21 INFO  Logging:26 - Your cart is empty message shown
+2022-11-29 23:52:21 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:53:10 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:53:10 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC006-This test verify user can order product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:53:10 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:53:17 INFO  Logging:26 - Link clicked - Electronics
+2022-11-29 23:53:28 INFO  Logging:26 - Image clicked - First product
+2022-11-29 23:53:31 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-29 23:53:35 INFO  Logging:26 - Link clicked - Kitchen Items
+2022-11-29 23:53:36 INFO  Logging:26 - Image clicked - First product
+2022-11-29 23:53:40 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-29 23:53:42 INFO  Logging:26 - Link clicked - Cart
+2022-11-29 23:53:43 INFO  Logging:26 - Button clicked - Checkout
+2022-11-29 23:53:43 INFO  Logging:26 - Button clicked - Confirm Payment
+2022-11-29 23:53:45 INFO  Logging:26 - Order placed successfully
+2022-11-29 23:53:45 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:54:55 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:54:55 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC001-This test verifies validation message displayed when user login with blank user name and password       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:54:55 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:54:56 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:54:56 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:54:56 INFO  Logging:26 - Username and Password are required validation message is displayed
+2022-11-29 23:54:56 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:54:57 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:54:57 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:54:57 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:54:58 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:54:58 INFO  Logging:26 - Text entered - User Name
+2022-11-29 23:54:59 INFO  Logging:26 - Text entered - User password
+2022-11-29 23:54:59 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:55:00 INFO  Logging:26 - Logout link displayed
+2022-11-29 23:55:00 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:55:01 INFO  Logging:26 - Link clicked - Logout
+2022-11-29 23:55:01 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:55:01 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:55:01 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:55:01 INFO  Logging:26 - Link clicked - Login link
+2022-11-29 23:55:02 INFO  Logging:26 - Text entered - User Name
+2022-11-29 23:55:03 INFO  Logging:26 - Text entered - User password
+2022-11-29 23:55:03 INFO  Logging:26 - Button clicked - LogIn
+2022-11-29 23:55:04 INFO  Logging:26 - Logout link displayed
+2022-11-29 23:55:04 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:55:04 INFO  Logging:26 - Link clicked - Logout
+2022-11-29 23:55:05 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:55:05 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:55:05 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:55:06 INFO  Logging:26 - Link clicked - Electronics
+2022-11-29 23:55:10 INFO  Logging:26 - Text entered - Product Name
+2022-11-29 23:55:13 INFO  Logging:26 - Link clicked - Product
+2022-11-29 23:55:16 INFO  Logging:26 - Price matches
+2022-11-29 23:55:16 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:55:17 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:55:17 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:55:17 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:55:18 INFO  Logging:26 - Link clicked - Kitchen Items
+2022-11-29 23:55:21 INFO  Logging:26 - Text entered - Product Name
+2022-11-29 23:55:25 INFO  Logging:26 - Link clicked - Product
+2022-11-29 23:55:28 INFO  Logging:26 - Price matches
+2022-11-29 23:55:28 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:55:29 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:55:29 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:55:29 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:55:30 INFO  Logging:26 - Link clicked - Sports
+2022-11-29 23:55:33 INFO  Logging:26 - Text entered - Product Name
+2022-11-29 23:55:37 INFO  Logging:26 - Link clicked - Product
+2022-11-29 23:55:40 INFO  Logging:26 - Price do not match
+2022-11-29 23:55:40 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:55:54 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:55:54 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC004-This test verifies user can add a product to cart and cart details are correct       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:55:54 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:55:57 INFO  Logging:26 - Link clicked - Sports
+2022-11-29 23:55:58 INFO  Logging:26 - Image clicked - First product
+2022-11-29 23:56:01 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-29 23:56:03 INFO  Logging:26 - Link clicked - Cart
+2022-11-29 23:56:04 INFO  Logging:26 - Price on detail page -500.0 | Name on detail page -SG Bal
+2022-11-29 23:56:04 INFO  Logging:26 - Price on Cart -500.0 | Name on Cart -SG Bal
+2022-11-29 23:56:04 INFO  Logging:26 - Product name and price is same on cart
+2022-11-29 23:56:04 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:56:05 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:56:05 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC005-This test verifies user can remove product from cart       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:56:05 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:56:15 INFO  Logging:26 - no such element: Unable to locate element: {"method":"partial link text","selector":"Login"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAURAV3152712', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\GAURAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b0beee4e295c15e7f73906cd3212ad
+*** Element info: {Using=partial link text, value=Login}
+2022-11-29 23:56:15 INFO  Logging:20 - *** TestCase End**
+2022-11-29 23:56:15 INFO  Logging:12 - ****************************************************************************************
+2022-11-29 23:56:15 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC006-This test verify user can order product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-29 23:56:15 INFO  Logging:14 - ****************************************************************************************
+2022-11-29 23:56:26 INFO  Logging:26 - no such element: Unable to locate element: {"method":"partial link text","selector":"Login"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAURAV3152712', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\GAURAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b0beee4e295c15e7f73906cd3212ad
+*** Element info: {Using=partial link text, value=Login}
+2022-11-29 23:56:26 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:04:24 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:04:24 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC001-This test verifies validation message displayed when user login with blank user name and password       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:04:24 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:04:25 INFO  Logging:26 - Link clicked - Login link
+2022-11-30 00:04:25 INFO  Logging:26 - Button clicked - LogIn
+2022-11-30 00:04:25 INFO  Logging:26 - Username and Password are required validation message is displayed
+2022-11-30 00:04:25 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:04:36 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:04:36 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:04:36 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:04:37 INFO  Logging:26 - Link clicked - Login link
+2022-11-30 00:04:37 INFO  Logging:26 - Text entered - User Name
+2022-11-30 00:04:38 INFO  Logging:26 - Text entered - User password
+2022-11-30 00:04:38 INFO  Logging:26 - Button clicked - LogIn
+2022-11-30 00:04:40 INFO  Logging:26 - Logout link displayed
+2022-11-30 00:04:40 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:04:41 INFO  Logging:26 - Link clicked - Logout
+2022-11-30 00:04:41 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:04:41 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC002-This test verifies that user can login and logout with valid credentials       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:04:41 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:04:41 INFO  Logging:26 - Link clicked - Login link
+2022-11-30 00:04:42 INFO  Logging:26 - Text entered - User Name
+2022-11-30 00:04:42 INFO  Logging:26 - Text entered - User password
+2022-11-30 00:04:43 INFO  Logging:26 - Button clicked - LogIn
+2022-11-30 00:04:44 INFO  Logging:26 - Logout link displayed
+2022-11-30 00:04:44 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:04:45 INFO  Logging:26 - Link clicked - Logout
+2022-11-30 00:04:55 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:04:55 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:04:55 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:04:56 INFO  Logging:26 - Link clicked - Electronics
+2022-11-30 00:05:00 INFO  Logging:26 - Text entered - Product Name
+2022-11-30 00:05:04 INFO  Logging:26 - Link clicked - Product
+2022-11-30 00:05:07 INFO  Logging:26 - Price matches
+2022-11-30 00:05:07 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:05:07 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:05:07 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:05:07 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:05:08 INFO  Logging:26 - Link clicked - Kitchen Items
+2022-11-30 00:05:12 INFO  Logging:26 - Text entered - Product Name
+2022-11-30 00:05:16 INFO  Logging:26 - Link clicked - Product
+2022-11-30 00:05:19 INFO  Logging:26 - Price matches
+2022-11-30 00:05:19 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:05:20 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:05:20 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC003-This test verifies user can search for a product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:05:20 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:05:21 INFO  Logging:26 - Link clicked - Sports
+2022-11-30 00:05:24 INFO  Logging:26 - Text entered - Product Name
+2022-11-30 00:05:28 INFO  Logging:26 - Link clicked - Product
+2022-11-30 00:05:31 INFO  Logging:26 - Price matches
+2022-11-30 00:05:31 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:05:42 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:05:42 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC004-This test verifies user can add a product to cart and cart details are correct       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:05:42 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:05:45 INFO  Logging:26 - Link clicked - Sports
+2022-11-30 00:05:46 INFO  Logging:26 - Image clicked - First product
+2022-11-30 00:05:50 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-30 00:05:52 INFO  Logging:26 - Link clicked - Cart
+2022-11-30 00:05:52 INFO  Logging:26 - Price on detail page -500.0 | Name on detail page -SG Bal
+2022-11-30 00:05:52 INFO  Logging:26 - Price on Cart -500.0 | Name on Cart -SG Bal
+2022-11-30 00:05:52 INFO  Logging:26 - Product name and price is same on cart
+2022-11-30 00:05:52 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:05:53 INFO  Logging:26 - Link clicked - Logout
+2022-11-30 00:05:53 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:05:53 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC005-This test verifies user can remove product from cart       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:05:53 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:05:57 INFO  Logging:26 - Link clicked - Sports
+2022-11-30 00:05:58 INFO  Logging:26 - Image clicked - First product
+2022-11-30 00:05:58 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-30 00:06:01 INFO  Logging:26 - Link clicked - Cart
+2022-11-30 00:06:02 INFO  Logging:26 - Button clicked - Remove
+2022-11-30 00:06:03 INFO  Logging:26 - Your cart is empty message shown
+2022-11-30 00:06:03 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:06:03 INFO  Logging:26 - Link clicked - Logout
+2022-11-30 00:06:04 INFO  Logging:12 - ****************************************************************************************
+2022-11-30 00:06:04 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC006-This test verify user can order product       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-11-30 00:06:04 INFO  Logging:14 - ****************************************************************************************
+2022-11-30 00:06:07 INFO  Logging:26 - Link clicked - Electronics
+2022-11-30 00:06:08 INFO  Logging:26 - Image clicked - First product
+2022-11-30 00:06:11 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-30 00:06:15 INFO  Logging:26 - Link clicked - Kitchen Items
+2022-11-30 00:06:16 INFO  Logging:26 - Image clicked - First product
+2022-11-30 00:06:20 INFO  Logging:26 - Button clicked - Add To Cart
+2022-11-30 00:06:22 INFO  Logging:26 - Link clicked - Cart
+2022-11-30 00:06:23 INFO  Logging:26 - Button clicked - Checkout
+2022-11-30 00:06:24 INFO  Logging:26 - Button clicked - Confirm Payment
+2022-11-30 00:06:25 INFO  Logging:26 - Order placed successfully
+2022-11-30 00:06:25 INFO  Logging:20 - *** TestCase End**
+2022-11-30 00:06:25 INFO  Logging:26 - Link clicked - Logout
+2022-12-05 18:14:23 INFO  Logging:12 - ****************************************************************************************
+2022-12-05 18:14:23 INFO  Logging:13 - $$$$$$$$$$$$$$$$$$$$$                 TC001-This test verifies validation message displayed when user login with blank user name and password       $$$$$$$$$$$$$$$$$$$$$$$$$
+2022-12-05 18:14:23 INFO  Logging:14 - ****************************************************************************************
+2022-12-05 18:15:14 INFO  Logging:26 - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.partialLinkText: Login' (tried for 30 second(s) with 5000 milliseconds interval)
+2022-12-05 18:15:14 INFO  Logging:20 - *** TestCase End**
