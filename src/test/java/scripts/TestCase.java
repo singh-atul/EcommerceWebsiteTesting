@@ -24,6 +24,7 @@ import utils.Action;
 import utils.Logging;
 import utils.Utility;
 
+@Listeners(Listener.class)
 public class TestCase 
 {
 	WebDriver driver;
@@ -59,12 +60,26 @@ public class TestCase
 	public void beforemethod()
 	{}
 	
-	@AfterMethod()
-	public void afterMethod() throws InterruptedException
-	{
-		if(driver.findElements(By.xpath("//*[text()='Logout']")).size()>0)				
-				action.clickLink(homePageObjects.lnkLogout,"Logout");
-	}
+@AfterMethod
+public void closeTest(ITestResult result) throws IOException {
+
+Logging.info("Ending the Test Case Execution");
+//Take the Screenshot Only, If the Test is failed.
+// Change the condition , If the screenshot needs to be taken for other status as well
+
+if(ITestResult.FAILURE==result.getStatus()){
+System.out.println("Failed Status Check");
+extentReport.addScreenshot(driver);
+}
+if
+((driver.findElements(By.xpath("//div[text()=\"Logout\"]")).size()) > 0) {
+
+loginPage.logoutBtn.click();
+Logging.info("clicked on Logout Button");
+} else {
+Logging.info("Logout button is not displayed");
+}
+}
 	
 	
   @Test(description="TC001-This test verifies validation message displayed when user login with blank user name and password", priority=1,enabled=true)
