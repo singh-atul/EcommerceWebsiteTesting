@@ -24,7 +24,7 @@ import utils.Action;
 import utils.Logging;
 import utils.Utility;
 
-@Listeners(Listner.class)
+@Listeners(Listener.class)
 public class TestCase 
 {
 	WebDriver driver;
